@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		42131AB5239B4A5000E7D1AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42131AB4239B4A5000E7D1AA /* Assets.xcassets */; };
 		42131AB8239B4A5000E7D1AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42131AB6239B4A5000E7D1AA /* LaunchScreen.storyboard */; };
 		42131ABB239B4A5000E7D1AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42131ABA239B4A5000E7D1AA /* main.m */; };
+		424DADA7239B6E7200B70D19 /* CCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 424DADA6239B6E7200B70D19 /* CCTableViewController.m */; };
 		964CEDCE5E5A3A6499C35FBE /* Pods_CCTableViewManagerDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D22563B47AC8CEE3FA2062A /* Pods_CCTableViewManagerDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,8 @@
 		42131AB7239B4A5000E7D1AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42131AB9239B4A5000E7D1AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42131ABA239B4A5000E7D1AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		424DADA5239B6E7200B70D19 /* CCTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCTableViewController.h; sourceTree = "<group>"; };
+		424DADA6239B6E7200B70D19 /* CCTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCTableViewController.m; sourceTree = "<group>"; };
 		5D22563B47AC8CEE3FA2062A /* Pods_CCTableViewManagerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCTableViewManagerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E0A9FE9F4F80960DDD107B9 /* Pods-CCTableViewManagerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCTableViewManagerDemo.release.xcconfig"; path = "Target Support Files/Pods-CCTableViewManagerDemo/Pods-CCTableViewManagerDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -53,7 +56,6 @@
 				1622569157A26B78575B4D6E /* Pods-CCTableViewManagerDemo.debug.xcconfig */,
 				8E0A9FE9F4F80960DDD107B9 /* Pods-CCTableViewManagerDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -85,6 +87,8 @@
 				42131AAE239B4A4E00E7D1AA /* ViewController.h */,
 				42131AAF239B4A4E00E7D1AA /* ViewController.m */,
 				42131AB1239B4A4E00E7D1AA /* Main.storyboard */,
+				424DADA5239B6E7200B70D19 /* CCTableViewController.h */,
+				424DADA6239B6E7200B70D19 /* CCTableViewController.m */,
 				42131AB4239B4A5000E7D1AA /* Assets.xcassets */,
 				42131AB6239B4A5000E7D1AA /* LaunchScreen.storyboard */,
 				42131AB9239B4A5000E7D1AA /* Info.plist */,
@@ -218,6 +222,7 @@
 				42131AB0239B4A4E00E7D1AA /* ViewController.m in Sources */,
 				42131AAA239B4A4E00E7D1AA /* AppDelegate.m in Sources */,
 				42131ABB239B4A5000E7D1AA /* main.m in Sources */,
+				424DADA7239B6E7200B70D19 /* CCTableViewController.m in Sources */,
 				42131AAD239B4A4E00E7D1AA /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
